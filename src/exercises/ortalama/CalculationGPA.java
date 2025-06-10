@@ -2,7 +2,7 @@ package exercises.ortalama;
 
 import java.util.Scanner;
 
-public class calculator {
+public class CalculationGPA {
     public static void main(String[] args) {
 
         int fizik, tarih, mat, muzik, kimya, turkce;

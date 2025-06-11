@@ -6,20 +6,20 @@ package exercises.ucgenalan;
  */
 import java.util.Scanner;
 
-public class AlanHesaplama {
+public class UcgenAlanHesap {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int kenar1, kenar2, kenar3, u, karealan;
+        double kenar1, kenar2, kenar3, u, karealan;
 
         System.out.print("1.kenar uzunluğunu giriniz: ");
-        kenar1 = scan.nextInt();
+        kenar1 = scan.nextDouble();
 
         System.out.print("2.kenar uzunluğunu giriniz: ");
-        kenar2 = scan.nextInt();
+        kenar2 = scan.nextDouble();
 
         System.out.print("3.kenar uzunluğunu giriniz: ");
-        kenar3 = scan.nextInt();
+        kenar3 = scan.nextDouble();
 
         u = (kenar1 + kenar2 + kenar3) / 2;
         karealan = u * (u-kenar1)*(u-kenar2)*(u-kenar3);
